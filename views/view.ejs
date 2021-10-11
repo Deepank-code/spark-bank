@@ -1,0 +1,27 @@
+<%- include("partials/header"); -%>
+
+<div class="maincont">
+  <div class="contact">
+    <form action="">
+      <h1 class="viewhead">
+        <img
+          src="https://img.icons8.com/bubbles/100/000000/user.png"
+        /><br /><%= docs.name %>
+      </h1>
+      <br />
+
+      <h3 class="viewpara">Customer Email<br /><%= docs.email %></h3>
+      <br />
+
+      <h2 class="viewheadd">
+        <img src="https://img.icons8.com/color/48/000000/rupee--v1.png" />
+        <br />
+
+        <%= docs.currBalance %>
+      </h2>
+
+      <br />
+    </form>
+  </div>
+</div>
+<%- include("partials/footer"); -%>

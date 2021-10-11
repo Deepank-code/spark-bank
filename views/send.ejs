@@ -1,0 +1,31 @@
+<%- include("partials/header"); -%>
+
+<div class="maincont">
+  <div class="contact">
+    <form action="/" methord="post">
+      <input
+        class="one"
+        type="email"
+        name="sender"
+        placeholder="Enter Sender Email"
+        autocomplete="off"
+      />
+      <input
+        class="one"
+        type="email"
+        name="reciver"
+        placeholder="Enter Reciver Email"
+        autocomplete="off"
+      />
+      <input class="one" type="number" placeholder="Enter Amount" />
+
+      <!-- <button type="submit" name="submit">Send money</button> -->
+      <a href="/money" class="anchor">Send Money</a>
+    </form>
+    <h2>
+      Enjoy Secured Transaction <br />
+      with Spark Bank
+    </h2>
+  </div>
+</div>
+<%- include("partials/footer"); -%>
